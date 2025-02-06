@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../BLINKY"
+		},
+		{
+			"name": "adc",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
