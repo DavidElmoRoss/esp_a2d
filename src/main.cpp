@@ -23,7 +23,7 @@ void loop()
   for(;;)                                   // endless loop
   {
       adcVal = analogRead(PIN_ANALOG_IN);   // adcVal gets value from 0-4095
-      voltage = adcVal / 4095.0 * 3.333;    // voltages gets value from 0-3.33
+      voltage = adcVal / 4096.0 * 3.333;    // voltages gets value from 0-3.33
       printf("\e[11;35H");                  // position cursor at (11,35)
       printf("%d\t\t%4.2f",adcVal,voltage); // print adcVal and voltage there
       fflush(stdout);                       // fflush stdout to synch screen data
