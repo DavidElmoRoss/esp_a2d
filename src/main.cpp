@@ -6,11 +6,11 @@
 **********************************************************************/
 #include "arduino.h"                        // include Arduino.h library
 
-#define PIN_ANALOG_IN  34                    // Pin 34 is the A/D being used
-
-void setup() {
-  Serial.begin(115200);                     // platformio.ini has monitor_speed = 115200
-                                            // make sure both are set to same value
+#define PIN_ANALOG_IN 34                    // Pin 34 is the A/D being used
+                                            // other a2d pins are 35,36, 39
+void setup() 
+{
+  Serial.begin(115200);                     // platformio.ini has monitor_speed = 115200                                            // make sure both are set to same value
 }
 
 void loop() 
